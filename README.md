@@ -1,4 +1,4 @@
-# FullStack22_23
+# FullStack22_23 Part 0 exercises
 
 ### 0.1 - 0.3
 ei palauteta GitHubiin
