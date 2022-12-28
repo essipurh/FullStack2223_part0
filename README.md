@@ -48,6 +48,6 @@ sequenceDiagram
   participant Server
   Browser->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa, {content: "new note", date: "2022-12-28T12:11:35.381Z"}
   Note left of Browser: Sending HTTP POST request containing the added note as JSON data
-  Server->>Browser: HTTP Satus Code 201 
+  Server->>Browser: HTTP Satus Code 201 Created
   Note left of Server: Server doesn't ask for redirect(302) hence the broswer doesn't change the page nor send other HTTP requests
 ```
